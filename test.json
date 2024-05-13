@@ -1,0 +1,69 @@
+{
+  "bz": {
+    "name": "包子漫画",
+    "home": {
+      "url": "https://baozimh.org/",
+      "array": ".flex.flex-row.w-full.gap-unit-sm a",
+      "img": "img",
+      "title": "h3"
+    },
+    "detail": {
+      "img": "#MangaCard img",
+      "title": "#info h1",
+      "author": "#info .text-small .p-1",
+      "msg": "#info .text-medium.line-clamp-4.my-unit-md",
+      "chapter": [
+        {
+          "url": ".my-unit-sm a",
+          "array": "#chapterlists a",
+          "title": "span"
+        },
+        {
+          "url": "",
+          "array": "#chapterlists a",
+          "title": "span"
+        }
+      ]
+    },
+    "content": {
+      "array": ".w-full.text-center.touch-manipulation img"
+    },
+    "search": {
+      "url": "https://baozimh.org/s/%s",
+      "array": ".pb-2 a",
+      "img": "img",
+      "title": "h3"
+    }
+  },
+  "kb": {
+    "name": "拷贝漫画",
+    "home": {
+      "url": "https://www.mangacopy.com/comics?ordering=-datetime_updated&offset=0",
+      "array": ".col-auto.exemptComic_Item",
+      "img": "img",
+      "title": ".exemptComicItem-txt p"
+    },
+    "detail": {
+      "img": ".comicParticulars-left-img.loadingIcon img",
+      "title": ".col-9.comicParticulars-title-right h6",
+      "author": "span.comicParticulars-right-txt",
+      "msg": ".intro",
+      "chapter": [
+        {
+          "url": "",
+          "array": "div#default全部 > ul > a",
+          "title": "li"
+        }
+      ]
+    },
+    "content": {
+      "array": "ul.comicContent-list img"
+    },
+    "search": {
+      "url": "https://www.mangacopy.com/search?q=%s&q_type=",
+      "array": ".col-auto.exemptComic_Item",
+      "img": "img",
+      "title": "p"
+    }
+  }
+}
